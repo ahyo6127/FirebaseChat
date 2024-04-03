@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2037047F2BA92EDA00BCA66C /* FirebaseChat Google.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2037047E2BA92ED900BCA66C /* FirebaseChat Google.plist */; };
+		209414822BBD732700C2D65A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209414812BBD732700C2D65A /* ImagePicker.swift */; };
 		20BA51E92BA9578900B99BB3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 20BA51E82BA9578900B99BB3 /* FirebaseAuth */; };
 		20BA51EB2BA9578900B99BB3 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 20BA51EA2BA9578900B99BB3 /* FirebaseAuthCombine-Community */; };
 		20BA520F2BA9578900B99BB3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 20BA520E2BA9578900B99BB3 /* FirebaseStorage */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		2037047E2BA92ED900BCA66C /* FirebaseChat Google.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FirebaseChat Google.plist"; sourceTree = "<group>"; };
+		209414812BBD732700C2D65A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		20DD65282BA8177700C9674F /* FirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DD652B2BA8177700C9674F /* FirebaseChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseChatApp.swift; sourceTree = "<group>"; };
 		20DD652D2BA8177700C9674F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				20DD652D2BA8177700C9674F /* LoginView.swift */,
 				2037047E2BA92ED900BCA66C /* FirebaseChat Google.plist */,
 				20DD652F2BA8177C00C9674F /* Assets.xcassets */,
+				209414812BBD732700C2D65A /* ImagePicker.swift */,
 				20DD65312BA8177C00C9674F /* Preview Content */,
 			);
 			path = FirebaseChat;
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209414822BBD732700C2D65A /* ImagePicker.swift in Sources */,
 				20DD652E2BA8177700C9674F /* LoginView.swift in Sources */,
 				20DD652C2BA8177700C9674F /* FirebaseChatApp.swift in Sources */,
 			);
